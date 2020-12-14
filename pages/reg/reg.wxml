@@ -1,0 +1,9 @@
+<view>注册信息填写</view>
+<icon type="info"></icon>
+<text>用户名：</text>
+<input placeholder="请输入"></input>
+<icon type="info"></icon>
+<text>密码：</text>
+<input password placeholder=""></input>
+ <button type="primary">提交</button>
+<button type="warn">重做</button>

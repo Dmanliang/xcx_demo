@@ -1,0 +1,13 @@
+<view class="container">
+  <swiper class="swiper-img">
+    <swiper-item item-id="1">
+      <image src="/images/card01.jpg" />
+    </swiper-item>
+    <swiper-item item-id="2">
+      <image src="/images/card02.jpg" />
+    </swiper-item>
+     <swiper-item item-id="3">
+      <image src="/images/card03.jpg" />
+    </swiper-item>
+  </swiper>
+</view>

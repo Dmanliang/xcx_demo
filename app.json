@@ -1,8 +1,13 @@
 {
   "pages":[
+    "pages/flex/flext",
+    "pages/news/news",
+    "pages/swiper/swiper",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/news/news"
+    "pages/scroll-nav/scroll-nav",
+    "pages/reg/reg",
+    "pages/logs/logs"
+
   ],
   "window":{
     "backgroundTextStyle":"dark",

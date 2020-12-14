@@ -1,59 +1,32 @@
-// pages/news/news.js
+// pages/scroll-nav/scroll-nav.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    text:'init data',
-    array:[{text:'init data',text2:'init data 2'}],
-    object:{text:'init data'},
-    newFiled:{text:'init data'}
-  },
 
-  changeText:function(){
-    this.setData({
-      text:'changed data'
-    })
-  },
-
-  changeItemInArray:function(){
-    this.setData({
-      'array[0].text':'changed data'
-    })
-  },
-
-  changeItemInObject:function(){
-    this.setData({
-      'object.text':'changed data'
-    })
-  },
-
-  addNewField:function(){
-    this.setData({
-      'newFiled .text':'new data'
-    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log("onLoad");
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log("onReady");
+
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log("onShow");
+
   },
 
   /**

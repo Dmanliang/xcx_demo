@@ -1,0 +1,45 @@
+.filters{
+    display: flex;
+    border:1rpx soild #efefef;
+    background-color: lightcyan;
+}
+
+.filter{
+    flex:1;
+    text-align: center;
+    color:#696969;
+    font-size: 30rpx;
+    line-height: 3;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: lightgreen;
+    height: 200rpx;
+    width: 100%;
+}
+
+.view-size{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 160rpx;
+    width: 160rpx;
+    background-color: lightpink;
+}
+
+.view-size image{
+    height: 100rpx;
+    width: 100rpx;
+    background-color: lime;
+}
+
+.view-size text{
+    color: lightseagreen;
+    align-content: center;
+    background-color: lightslategray;
+}

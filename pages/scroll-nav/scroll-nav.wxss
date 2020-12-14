@@ -1,0 +1,26 @@
+/* pages/scroll-nav/scroll-nav.wxss */
+page{
+  height: 100%;
+}
+
+.menu{
+  background-color: lightblue;
+}
+
+.scroll-nav{
+  display: flex;
+  white-space: nowrap;
+  font-size: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.scroll-nav navigator{
+  margin: 0 10rpx;
+  font-weight: bold;
+}
+
+.scorll-height{
+  height: 100%;
+
+}

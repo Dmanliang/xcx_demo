@@ -1,2 +1,8 @@
-<!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<view>{{text}}</view>
+<button type="primary" bindtap="changeText">Change normal data</button>
+<view>{{array[0].text}}</view>
+<button type="primary" bindtap="changeItemInArray">Change Array data</button>
+<view>{{object.text}}</view>
+<button type="primary" bindtap="changeItemInObject">Change Object data</button>
+<view>{{newFiled.text}}</view>
+<button type="primary" bindtap="addNewField">Add new data</button>

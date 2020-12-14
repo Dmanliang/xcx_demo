@@ -1,0 +1,32 @@
+<view class='container'>
+
+<!-- 水平新闻布局 -->
+  <scroll-view scroll-x class="menu">
+    <view class="scroll-nav">
+      <navigator url="">社会新闻</navigator>
+      <navigator url="">娱乐新闻</navigator>
+      <navigator url="">国际新闻</navigator>
+      <navigator url="">国内新闻</navigator>
+      <navigator url="">社会新闻</navigator>
+      <navigator url="">娱乐新闻</navigator>
+      <navigator url="">国际新闻</navigator>
+      <navigator url="">国内新闻</navigator>
+    </view>
+  </scroll-view>
+
+  <!-- 垂直新闻布局 -->
+   <scroll-view scroll-y enable-back-to-top class="scorll-height">
+    <view>
+      <image src="/images/card01.jpg"></image>
+      <view>咖啡</view>
+    </view>
+      <view>
+      <image src="/images/card02.jpg"></image>
+      <view>咖啡</view>
+    </view>
+      <view>
+      <image src="/images/card03.jpg"></image>
+      <view>咖啡</view>
+    </view>
+  </scroll-view>
+</view>
